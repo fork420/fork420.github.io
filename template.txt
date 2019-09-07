@@ -1,0 +1,17 @@
+!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ForkCalc</title>
+  <meta name="author" content="fork420">
+  <meta name="description" content="forkCalc">
+  <meta name="keywords" content="nothing">
+   <style type="text/css">
+   </style>
+ 
+  </head>
+  <body>
+    <h1><a href="index.html">ForkCalc</a></h1>
+  </body>
+</html>
