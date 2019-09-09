@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ForkCalc</title>
+  <meta name="author" content="fork420">
+  <meta name="description" content="forkCalc">
+  <meta name="keywords" content="nothing">
+   <style type="text/css">
+   </style>
+   <script>
+    var midpointx;
+    var midpointy;
+    var x1;
+    var x2;
+    var y1;
+    var y2;
+    
+    func midpoint(){
+      x1 = prompt("Value of X1:");
+      x2 = prompt("Value of X2:");
+      y1 = prompt("Value of Y1:");
+      y2 = prompt("Value of Y2:");
+      midpointx = (x1+x2/2);
+      midpointy = (y1+y2/2);
+      getElementById("answer").innerHTML = midpointx + ", " midpointy;
+    }
+   </script>
+  </head>
+  <body>
+    <h1><a href="index.html">ForkCalc</a></h1>
+    <button id="answer" onclick="midpoint()">Begin!</button>
+    <h3>Answer</h3>
+  </body>
+</html>
