@@ -17,6 +17,16 @@
     var y1;
     var y2;
     
+    window.onload(){
+      x1 = prompt("Value of X1:");
+      x2 = prompt("Value of X2:");
+      y1 = prompt("Value of Y1:");
+      y2 = prompt("Value of Y2:");
+      midpointx = (x1+x2/2);
+      midpointy = (y1+y2/2);
+      getElementById("answer").innerHTML = midpointx + ", " midpointy;
+    }
+    
     func midpoint(){
       x1 = prompt("Value of X1:");
       x2 = prompt("Value of X2:");
